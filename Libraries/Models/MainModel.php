@@ -48,6 +48,7 @@ abstract class MainModel
      */
     public function findAllObj(): array
     {
+        $item = [];
         $query = $this->pdo->query("SELECT * FROM {$this->table}");
         while($donnees = $query->fetch(PDO::FETCH_ASSOC)) {
             $item[] = new $this->obName($donnees);

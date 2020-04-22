@@ -3,7 +3,7 @@
 use General\HttpRequest;
 use General\HttpResponse;
 
-require '../vendor/autoload.php';
+require 'C:/xampp/htdocs/code/blog/vendor/autoload.php';
 
 
 const FRONTEND_APP = "Frontend";

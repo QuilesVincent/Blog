@@ -8,11 +8,32 @@ Use \PDO;
 class ArticleManager extends MainModel
 {
     protected $table = 'articles';
-    protected $obName = \General\Models\Article::class;
+    protected $obName = Article::class;
 
     public function __construct()
     {
         parent::__construct();
+    }
+
+    public function getArticle()
+    {
+        $req = $this->pdo->query('SELECT * FROM articles');
+        $donnees = $req->fetchall();
+        return $donnees;
+    }
+
+    public function findReturnArticle($target_id, $id)
+    {
+        $req = $this->pdo->prepare("SELECT * FROM {$this->table} WHERE $target_id = :id");
+
+        // On exécute la requête en précisant le paramètre :article_id
+        $req->execute([':id' => $id]);
+
+        // On fouille le résultat pour en extraire les données réelles en retournant une class obj
+        $donnees = $req->fetch(PDO::FETCH_ASSOC);
+        $article = new Article($donnees);
+        $pop = ["article" => $article];
+        return $pop;
     }
 
     public function ModifArticle(int $article_user_id, string $article_title, string $article_title_picture, string $article_content, string $article_category, string $article_introduction, int $article_nombre_comment, string $article_creation_date, int $article_id)

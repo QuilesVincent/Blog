@@ -4,6 +4,7 @@
 namespace General\Models;
 
 
+
 /**
  * Class ClassFactory
  * @package App\Models

@@ -31,7 +31,7 @@ class MainController extends ApplicationComponent
             throw new \RuntimeException("L'action {$method} n'est pas définie sur ce module");
         }
 
-        $this->$method();
+        return $this->$method();
 
     }
 

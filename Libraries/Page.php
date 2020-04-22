@@ -14,11 +14,14 @@ class Page extends ApplicationComponent
         return $this->contentFile;
     }
 
-    public function render(string $name, string $module, string $view, ? array $var = null)
+    public function getVarRender(): array
     {
-        if(isset($var)){
-            extract($var);
-        }
+        return $this->varRender;
+    }
+
+    public function render(string $name, string $module, string $view,array $var)
+    {
+        extract($var);
         ob_start();
         if (file_exists("App/$name/Modules/$module/Views/$view.php")) {
             require("App/$name/Modules/$module/Views/$view.php");

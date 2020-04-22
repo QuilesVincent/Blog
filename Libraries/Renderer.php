@@ -3,6 +3,7 @@
 namespace General;
 
 
+
 class Renderer
 {
 
@@ -12,12 +13,12 @@ class Renderer
             extract($var);
         }
         ob_start();
-        if (file_exists("App/$name/Modules/$module/Views/$view.php")) {
-            require("App/$name/Modules/$module/Views/$view.php");
+        if (file_exists("C:/xampp/htdocs/code/blog/App/$name/Modules/$module/Views/$view.php")) {
+            require("C:/xampp/htdocs/code/blog/App/$name/Modules/$module/Views/$view.php");
         } else {
             throw new \Exception();
         }
         $pageContent = ob_get_clean();
-        require("App/templates/layout.php");
+        require("C:/xampp/htdocs/code/blog/App/templates/layout.php");
     }
 }

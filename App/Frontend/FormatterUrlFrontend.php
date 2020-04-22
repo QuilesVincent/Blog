@@ -11,14 +11,14 @@ class FormatterUrlFrontend extends ApplicationComponent implements FormatterUrl
 {
     protected $actionUrl;
     protected $moduleUrl;
-    protected $varsUrl;
+    protected $varsUrl = [];
 
     public function formatURL(string $url): void
     {
-        if (preg_match("/code\/testBlogPersoInjectionInterfaceRouterETC\/Public\/index.php\/(\w*)-?(\D*)(\d*)/", $url, $match)) {
-            $this->moduleUrl = $match[1];
-            $this->actionUrl = $match[2];
-            isset($match[3]) ? $this->varsUrl = $match[3] : null;
+        if (preg_match("/code\/blog\/Public\/index.php\/(\w*)-?(\D*)(\d*)/", $url, $match)) {
+            $this->moduleUrl = ucfirst($match[1]);
+            $this->actionUrl = ucfirst($match[2]);
+            isset($match[3]) ? $this->varsUrl['id'] = $match[3] : [];
         } else {
             $this->moduleUrl = "Articles";
             $this->actionUrl = "index";
@@ -38,6 +38,11 @@ class FormatterUrlFrontend extends ApplicationComponent implements FormatterUrl
     public function getVarsUrl()
     {
         return isset($this->varsUrl) ? $this->varsUrl : null;
+    }
+
+    public function getVarsUrlKey($key)
+    {
+        return isset($this->varsUrl[$key]) ? $this->varsUrl[$key] : null;
     }
 
 

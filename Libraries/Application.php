@@ -28,7 +28,17 @@ abstract class Application
 
 
         $controllerClass = "App\\{$this->name}\\Modules\\{$route->getModule()}\\{$route->getModule()}Controller";
-        return new $controllerClass($this, $route->getModule(), $route->getAction(), $page);
+        return new $controllerClass($this,$route->getModule(), $route->getAction(), $page);
+        /*
+        $c = new $controllerClass($this,$route->getModule(), $route->getAction(), $page);
+        $cep = ucfirst($route->getAction());
+        $method = "execute$cep";
+        //var_dump($method);
+        //var_dump($c);
+        $result = $c->$method();
+        //var_dump($result);
+        Renderer::render($this->getName(), $route->getModule(), $route->getAction(), compact('result'));
+        //$page->render($this->getName(),$route->getModule(), $route->getAction(), $result);*/
 
     }
 

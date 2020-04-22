@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e7ddcf0-4860-42bc-b377-da9124f15613" name="Default Changelist" comment="" />
+    <list default="true" id="6e7ddcf0-4860-42bc-b377-da9124f15613" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Frontend/FormatterUrlFrontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Frontend/FormatterUrlFrontend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Frontend/FrontendApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Frontend/FrontendApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Frontend/Modules/Articles/ArticlesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Frontend/Modules/Articles/ArticlesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Frontend/Modules/Articles/Views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Frontend/Modules/Articles/Views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Templates/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Templates/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Models/ArticleManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Models/ArticleManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Models/ClassFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Models/ClassFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Models/MainModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Models/MainModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Renderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Renderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,12 +24,10 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -32,18 +45,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Libraries/Models" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\code\lastBlogPersoPerfect\Libraries" />
-      <recent name="C:\xampp\htdocs\code\lastBlogPersoPerfect\Libraries\Models" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\code\lastBlogPersoPerfect\App" />
       <recent name="C:\xampp\htdocs\code\lastBlogPersoPerfect" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\code\blog\Libraries\Models" />
+      <recent name="C:\xampp\htdocs\code\blog\Public" />
+      <recent name="C:\xampp\htdocs\code\blog\App\Frontend\Modules\Programme\Views" />
+      <recent name="C:\xampp\htdocs\code\blog\App\Frontend\Modules\Programme" />
+      <recent name="C:\xampp\htdocs\code\blog\App\Frontend\Modules\Articles\Views" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -58,38 +78,60 @@
       <updated>1587447834455</updated>
       <workItem from="1587447835592" duration="879000" />
       <workItem from="1587448732679" duration="17798000" />
-      <workItem from="1587477565221" duration="772000" />
+      <workItem from="1587477565221" duration="1482000" />
+      <workItem from="1587480015638" duration="1382000" />
+      <workItem from="1587491967830" duration="778000" />
+      <workItem from="1587528473046" duration="16501000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/blog" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="654" y="295" key="#Notifications" timestamp="1587528708474">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="654" y="295" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1587528708474" />
+    <state x="423" y="114" key="#Project_Structure" timestamp="1587531554608">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="423" y="114" key="#Project_Structure/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587531554608" />
     <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1587472906248">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587472906248" />
-    <state x="690" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587457319896">
+    <state x="690" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587544319751">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587457319896" />
+    <state x="690" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587544319751" />
     <state x="718" y="410" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587474486663">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="718" y="410" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587474486663" />
-    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1587450426643">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1587537526117">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="295" key="FileChooserDialogImpl/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587450426643" />
-    <state x="719" y="263" key="NewPhpClassDialog" timestamp="1587457674423">
+    <state x="592" y="236" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587528655597" />
+    <state x="740" y="295" key="FileChooserDialogImpl/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587537526117" />
+    <state x="719" y="263" key="NewPhpClassDialog" timestamp="1587537702175">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="719" y="263" key="NewPhpClassDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587457674423" />
-    <state x="795" y="463" key="NewPhpFileDialog" timestamp="1587472606441">
+    <state x="719" y="263" key="NewPhpClassDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587537702175" />
+    <state x="795" y="463" key="NewPhpFileDialog" timestamp="1587544789983">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="795" y="463" key="NewPhpFileDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587472606441" />
+    <state x="795" y="463" key="NewPhpFileDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587544789983" />
+    <state x="369" y="146" key="SettingsEditor" timestamp="1587528731644">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="369" y="146" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1587528731644" />
+    <state x="461" y="182" key="SettingsEditor/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587479859426" />
     <state x="661" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587477460043">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
