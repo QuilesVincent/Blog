@@ -18,8 +18,13 @@ class FrontendApplication extends Application
     {
         //$this->getController();
         $controller = $this->getController();
+
         $result = $controller->execute();
-        $pageTitle = 'title page';
+        $pageTitle = "{$this->formatterUrl->getModuleUrl()}-{$this->formatterUrl->getActionUrl()}";
+        if($this->getFormatterUrl()->getVarsUrlKey('id') ==! null){
+            $pageTitle .= " numéro {$this->formatterUrl->getVarsUrlKey('id')}";
+        };
+
         Renderer::render($this->getName(), $controller->getModule(), $controller->getAction(), compact('result', "pageTitle"));
         //$controller->getPage()->render($this->getName(),$controller->getModule(), $controller->getAction(), compact('result'));
         /*

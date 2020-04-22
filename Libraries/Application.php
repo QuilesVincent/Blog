@@ -24,6 +24,7 @@ abstract class Application
             $this->getFormatterUrl()->getVarsUrl()
         );
 
+
         $page = new Page($this);
 
 

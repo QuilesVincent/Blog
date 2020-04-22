@@ -16,8 +16,8 @@ class ArticlesController extends MainController
     public function executeIndex()
     {
         //$article = ClassFactory::getArticleManager()->find('1', 'article_id');
-        $article = ClassFactory::getArticleManager()->findAll();
-        return $article;
+        $articles = ClassFactory::getArticleManager()->findAll();
+        return $articles;
         //$articles = ClassFactory::getArticleManager()->findAllObj();
         //$this->page->setVarRender('articles', $articles);
         //Renderer::render($this->getApp()->getName(), 'Articles', 'index', compact('article'));

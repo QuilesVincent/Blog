@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7ddcf0-4860-42bc-b377-da9124f15613" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/App/Backend/Modules/Articles/ArticlesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Backend/Modules/Articles/Views/connexionAdmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Backend/Modules/Articles/Views/creationArticle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Backend/Modules/Articles/Views/gestionArticles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/video/videohack.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Frontend/FormatterUrlFrontend.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Frontend/FormatterUrlFrontend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Backend/BackendApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Backend/BackendApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Backend/formatterUrlBackend.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Backend/formatterUrlBackend.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Frontend/FrontendApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Frontend/FrontendApplication.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Frontend/Modules/Articles/ArticlesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Frontend/Modules/Articles/ArticlesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Frontend/Modules/Articles/Views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Frontend/Modules/Articles/Views/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Templates/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Templates/layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Frontend/Modules/Programme/ProgrammeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Frontend/Modules/Programme/ProgrammeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Libraries/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libraries/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libraries/Models/ArticleManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Models/ArticleManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libraries/Models/ClassFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Models/ClassFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libraries/Models/MainModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Models/MainModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libraries/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libraries/Renderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Renderer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Libraries/Models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lessonPHPOpenClassrooms/extranetBanque" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -59,11 +57,11 @@
       <recent name="C:\xampp\htdocs\code\lastBlogPersoPerfect" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\code\blog\Libraries\Models" />
+      <recent name="C:\xampp\htdocs\code\blog\App\Backend\Modules\Articles\Views" />
       <recent name="C:\xampp\htdocs\code\blog\Public" />
+      <recent name="C:\xampp\htdocs\code\blog\Libraries\Models" />
       <recent name="C:\xampp\htdocs\code\blog\App\Frontend\Modules\Programme\Views" />
       <recent name="C:\xampp\htdocs\code\blog\App\Frontend\Modules\Programme" />
-      <recent name="C:\xampp\htdocs\code\blog\App\Frontend\Modules\Articles\Views" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -81,8 +79,16 @@
       <workItem from="1587477565221" duration="1482000" />
       <workItem from="1587480015638" duration="1382000" />
       <workItem from="1587491967830" duration="778000" />
-      <workItem from="1587528473046" duration="16501000" />
+      <workItem from="1587528473046" duration="20066000" />
     </task>
+    <task id="LOCAL-00001" summary="Add files views modules Articles&#10;Create Module Programme&#10;Add files modules Programme&#10;Add files \General\Models\UserManager::class">
+      <created>1587546518580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587546518580</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +98,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/blog" />
     </ignored-roots>
+    <MESSAGE value="Add files views modules Articles&#10;Create Module Programme&#10;Add files modules Programme&#10;Add files \General\Models\UserManager::class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add files views modules Articles&#10;Create Module Programme&#10;Add files modules Programme&#10;Add files \General\Models\UserManager::class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="295" key="#Notifications" timestamp="1587528708474">
@@ -106,27 +114,39 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587472906248" />
-    <state x="690" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587544319751">
+    <state x="690" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587548457006">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587544319751" />
+    <state x="690" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587548457006" />
     <state x="718" y="410" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587474486663">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="718" y="410" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587474486663" />
-    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1587537526117">
+    <state x="568" y="117" key="CommitChangelistDialog2" timestamp="1587546517388">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="568" y="117" key="CommitChangelistDialog2/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587546517388" />
+    <state x="167" y="90" key="DiffContextDialog" timestamp="1587546428903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="167" y="90" key="DiffContextDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587546428903" />
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1587549802106">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="592" y="236" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587528655597" />
-    <state x="740" y="295" key="FileChooserDialogImpl/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587537526117" />
-    <state x="719" y="263" key="NewPhpClassDialog" timestamp="1587537702175">
+    <state x="740" y="295" key="FileChooserDialogImpl/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587549802106" />
+    <state x="719" y="263" key="NewPhpClassDialog" timestamp="1587547800457">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="719" y="263" key="NewPhpClassDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587537702175" />
+    <state x="719" y="263" key="NewPhpClassDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587547800457" />
     <state x="795" y="463" key="NewPhpFileDialog" timestamp="1587544789983">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="795" y="463" key="NewPhpFileDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587544789983" />
+    <state x="773" y="260" key="RollbackChangesDialog" timestamp="1587547206578">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="260" key="RollbackChangesDialog/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587547206578" />
     <state x="369" y="146" key="SettingsEditor" timestamp="1587528731644">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
